@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Create journal</title>
+</head>
+<body>
+    <h1>Create journal</h1>
+    <form action="api/v1journal" method="post">
+        <label for="main-title">Journal Title</label> 
+        <input id="main-title" type="text" name="title" placeholder="Enter Title">
+        <br>
+
+        <label for="email">Email</label> 
+        <input id="email" type="email" name="email" placeholder="Enter Email">
+        <br>
+
+        
+
+        <label for="journal-entry">Journal Entry</label>
+        <textarea id="journal-entry" name="entry" rows="5" cols="30">My day was</textarea>
+        <br>
+
+        
+    </form>
+</body>
+</html>
